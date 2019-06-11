@@ -1,5 +1,5 @@
-﻿//Lara Corkery 23/05/2019
-//Final Assignment Program Code 
+﻿//Lara Corkery 10012392 (23/05/2019)
+//Final Assignment (Staff Login) Program One
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,34 +16,34 @@ namespace Final_Assignment
             bool validusername = true;
             bool validpassword = true;
 
-           
+
 
             //While Loop For The Username
-            while(validusername)
+            while (validusername)
             {
                 //Introduction 
                 Console.WriteLine("---------------------------------------------------");
                 Console.WriteLine("--- Welcome To The Rotorua Thermal Holiday Park ---");
+                Console.WriteLine("------------------- Staff Login -------------------");
                 Console.WriteLine("---------------------------------------------------");
 
                 //Asking user to input a username 
                 Console.WriteLine(" Please Enter Desired Username: ");
                 string username = Console.ReadLine();
 
-                //if this process is equal to 6 
-                if (validateusername(username) ==1)
+                //If method found username not meet requirements 
+                if (validateusername(username) == 1)
                 {
                     Console.WriteLine("Username is too short. Press Enter To Enter New Username ");
                     Console.ReadLine();
                     Console.Clear();
                 }
                 else
-                {
+                {  //If method found username meet the requirements 
                     Console.WriteLine("Username Accepted And Set");
                     Console.ReadLine();
                     validusername = false;
-                } 
-
+                }
             }
 
             //While Loop For Password 
@@ -57,24 +57,22 @@ namespace Final_Assignment
                 Console.WriteLine("Please ReEnter Password: ");
                 string password2 = Console.ReadLine();
 
-                //
-                if (validatepassword(password1, password2 ) ==3 ) 
+                //If method found password did not meet requirements
+                if (validatepassword(password1, password2) == 3)
                 {
                     Console.WriteLine("Password Is Invalid, Press Enter To Enter New Password");
                 }
                 else
-                {
-                    Console.WriteLine("Password Accepted");
+                { //If method found password meet the requirements 
+                    Console.WriteLine("Password Accepted And Set");
                     Console.ReadLine();
                     validpassword = false;
                 }
+            }
 
 
-                
 
-            } 
-
-        } 
+        }
         //Method for Username - checking if username is less than 8 charcters
         static int validateusername(string username)
         {
@@ -99,9 +97,9 @@ namespace Final_Assignment
             }
             else
                 return 3;
-                
 
-           
+
+
         }
 
 
@@ -112,7 +110,7 @@ namespace Final_Assignment
          * If passwords don't match, it asks for user to enter passwords again until the passwords match and more than 8 charcters. 
          * 
          */
-         
+
 
 
 

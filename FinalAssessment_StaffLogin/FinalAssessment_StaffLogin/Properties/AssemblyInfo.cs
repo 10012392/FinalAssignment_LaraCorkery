@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Final_Assignment")]
+[assembly: AssemblyTitle("FinalAssessment_StaffLogin")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Final_Assignment")]
+[assembly: AssemblyProduct("FinalAssessment_StaffLogin")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("91c9d0a9-f208-4d16-85c9-78e9831926cc")]
+[assembly: Guid("7a97578a-7730-4db2-80f6-02aec58c9940")]
 
 // Version information for an assembly consists of the following four values:
 //

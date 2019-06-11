@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Final_Assignment", "Final_Assignment\Final_Assignment.csproj", "{91C9D0A9-F208-4D16-85C9-78E9831926CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalAssesment_PayRollSystem", "FinalAssesment_PayRollSystem\FinalAssesment_PayRollSystem.csproj", "{CACFDA43-72FC-4332-9876-758896751A20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{91C9D0A9-F208-4D16-85C9-78E9831926CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91C9D0A9-F208-4D16-85C9-78E9831926CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91C9D0A9-F208-4D16-85C9-78E9831926CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91C9D0A9-F208-4D16-85C9-78E9831926CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CACFDA43-72FC-4332-9876-758896751A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CACFDA43-72FC-4332-9876-758896751A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CACFDA43-72FC-4332-9876-758896751A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CACFDA43-72FC-4332-9876-758896751A20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5A8C6BB6-16E8-43C1-8626-C1503412C915}
+		SolutionGuid = {369F7EF4-2B48-4594-A220-3B00C3939C76}
 	EndGlobalSection
 EndGlobal
