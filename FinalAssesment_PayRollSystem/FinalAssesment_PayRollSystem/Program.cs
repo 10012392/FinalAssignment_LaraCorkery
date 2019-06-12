@@ -1,4 +1,4 @@
-﻿//Lara Corkery 10012392 (11/06/2019)
+﻿//Lara Corkery (10012392)
 //Final Assignment (PayRoll System) Program Two 
 using System;
 using System.Collections.Generic;
@@ -35,10 +35,10 @@ namespace FinalAssesment_PayRollSystem
             Console.WriteLine($"Name: {p1.Name} \nAnnual Gross Salary: {p1.Salary} \nTax Rate: {p1.Tax}% \nNet Salary: {p1.CalcNet()} ");
             Console.ReadLine();
 
-            
 
         }
 
+        //Employee class
         class Employee
         {
             //Three properties implemented
